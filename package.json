@@ -1,0 +1,12 @@
+{
+  "name": "repeater-node",
+  "version": "1.0.0",
+  "description": "repeater implementation with Node.js",
+  "main": "index.js",
+  "author": "Florent Biville <fbiville@pivotal.io>",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "highland": "^2.13.5"
+  }
+}
