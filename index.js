@@ -54,7 +54,12 @@ const main = () => {
 	const inputStream2 = new StdinSource(options);
 	const outputStream = new StdoutSink(options);
 
-	repeater(inputStream1, inputStream2, outputStream);
+	repeater({
+		"0": inputStream1,
+		"1": inputStream2
+	}, {
+		"0": outputStream
+	});
 }
 
 main();
