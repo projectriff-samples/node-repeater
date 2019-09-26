@@ -1,5 +1,7 @@
 # Repeater
 
+Word repeater streaming implementation in Node.js.
+
 ## Build
 Run `yarn` to install dependencies.
 
