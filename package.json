@@ -2,7 +2,7 @@
   "name": "repeater-node",
   "version": "1.0.0",
   "description": "repeater implementation with Node.js",
-  "main": "lib/repeater.js",
+  "main": "repeater.js",
   "author": "Florent Biville <fbiville@pivotal.io>",
   "license": "Apache-2.0",
   "private": false,

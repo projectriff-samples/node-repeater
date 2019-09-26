@@ -1,5 +1,5 @@
 const {TextDecoder} = require('util');
-const repeater = require('./lib/repeater');
+const repeater = require('./repeater');
 const {PassThrough, Readable, Transform} = require('stream');
 
 class ConstantSource extends Readable {
